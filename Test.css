@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.nav-header{
+    padding: 20px;
+    background-color: rgb(179, 212, 34);
+
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    font-size: 36px; font-weight:500px; 
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+li a{
+   
+    margin:40px;
+    font-size: 30px;
+    color:black
+}
+input{
+    width: 500px;
+    height:50px;
+    border-radius: 25px;
+}
